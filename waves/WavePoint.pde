@@ -24,7 +24,7 @@ class WavePoint {
 
   void display() {
     for (int i = 0; i < 50; i++) {    
-      point(xPos, yPos, zPos+(i*mouseY/4));
+      point(xPos, yPos, zPos+(i*15));
     }
   }
 }
